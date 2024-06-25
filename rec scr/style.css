@@ -1,0 +1,85 @@
+body {
+    background-color: beige;
+    color: #ff8c2e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+ nav {
+    display:grid;
+    place-content: right;
+    place-items: right;  
+   color: #ff8c2e; 
+   position: fixed
+   padding: 10px
+}
+button {
+    background-color: beige;
+    border: 2px solid #ff8c2e;
+    color: #ff8c2e;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+header{
+    font-size: 25px;
+}
+nav a{
+    grid-row: 1;
+    background-color: beige;
+    color: #ff8c2e;
+    text-align: right;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px; 
+}
+.img{
+    float:right;
+    width:50%;
+    margin-top: 20px;
+}
+.par1{
+    width:50%;
+    float:left
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right: 200px;
+    margin-left: 10px;
+}
+.nome{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+.juliana-silva {
+    font-size: 40px;
+    float:left
+    margin-bottom:40px;
+    margin-right:100px;
+
+}
+.par2{
+    margin-left: 50%;
+    float:right;
+}
+.meu-trabalho{
+    font-size: 50px;
+}
+aside{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.servicos{
+    grid-row: 1;
+    grid-column: 1;
+}
+.habilidades{
+    grid-row: 1;
+    grid-column: 2;
+}
+
